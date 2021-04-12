@@ -3,29 +3,63 @@
     {
       "id": 1,
       "title": "Example Article",
-      "content": "This is an example."
+      "content": "This is an example.",
+      "occupation_id": 1
     },
     {
       "id": 2,
       "title": "Second Article",
-      "content": "This is also an example."
+      "content": "This is also an example.",
+      "occupation_id": 2
     },
     {
-      "id": 3
+      "X": 3
     },
     {
       "name": "Tesla",
       "occupation": "Inventor",
       "JSON Validator": "https://jsonlint.com/",
-      "id": 4
+      "test": 4
     },
     {
       "title": "Third Article",
       "content": "Another example!",
       "name": "Tesla",
-      "occupation": "Inventor",
+      "occupation_name": "Inventor",
       "JSON Validator": "https://jsonlint.com/",
       "id": 5
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Francis Felicity Franklin IV",
+      "age": 32
+    },
+    {
+      "id": 3,
+      "name": "John Doe",
+      "age": 44,
+      "occupation_name": "Inventor",
+      "JSON Validator": "https://jsonlint.com/"
+    },
+    {
+      "name": "Millionaire Tortellina",
+      "age": 34,
+      "occupation_name": "Technician",
+      "id": 5
+    }
+  ],
+  "books": [
+    {
+      "id": 1,
+      "title": "Coding for Dummies",
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "title": "<Yoga class=for-programmers/>",
+      "userId": 1
     }
   ]
 }
